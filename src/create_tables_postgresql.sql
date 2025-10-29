@@ -2,7 +2,7 @@
 
 -- 1) Schema
 CREATE SCHEMA IF NOT EXISTS mydb;
-SET search_path TO mydb;
+SET search_path TO the_bridge;
 
 -- 2) Drop in dependency-safe order (CASCADE to simplify rebuilds)
 DROP TABLE IF EXISTS alumno_has_vertical_has_proyecto CASCADE;
