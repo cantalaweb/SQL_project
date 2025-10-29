@@ -1,7 +1,7 @@
 -- PostgreSQL 18+ compatible DDL
 
 -- 1) Schema
-CREATE SCHEMA IF NOT EXISTS mydb;
+CREATE SCHEMA IF NOT EXISTS the_bridge;
 SET search_path TO the_bridge;
 
 -- 2) Drop in dependency-safe order (CASCADE to simplify rebuilds)
